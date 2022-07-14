@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="15370"/>
+						<Prp name="duration" type="I" value="15370"/>
+						<Prp name="starttime" type="D" value="44755.6968381713"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0AEEAQQBEAEIARQBBAEMALQA2ADkARgBCAC0ANAA5AEEAQwAtAEIAOQBBAEMALQA2AEEANwA1ADAAMQBEAEUANQA0AEEAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="Contact"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="34015"/>
+						<Prp name="duration" type="I" value="34015"/>
+						<Prp name="starttime" type="D" value="44755.6970161806"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0ADkARAAxAEMAMABCADMALQAyADEANAA1AC0ANAA3ADEAMwAtAEEARQAyADcALQAxAEQAOAA0ADEAQwAyADYAMgA0AEYAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="ContactXL"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because Exists does not equal true. See Details for additional information."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to find the object &quot;//div[contains(@class, 'validation-summary-errors')]&quot;. See Details for additional information."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="Unable to find the object &quot;//div[contains(@class, 'validation-summary-errors')]&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="31958"/>
+						<Prp name="duration" type="I" value="31958"/>
+						<Prp name="starttime" type="D" value="44755.6964681944"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEQAMQAyADgANgAzADIALQBGADEAMQA5AC0ANABEADEARgAtADkANwBFADEALQA1AEYANQAyAEIANgAzAEQAMQBBAEIAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="Login"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="duration" type="I" value="81343"/>
+				<Prp name="starttime" type="D" value="44755.6964681944"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="WebTest"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="host" type="S" value="PC15MYFV"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="Corey.Vernon"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44755.697414537"/>
+		<Prp name="name" type="S" value="July22Suite"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{71A227B4-7AD8-4ADF-8A62-FDCDA2D5F825}"/>
+		<Prp name="testname" type="S" value="WebTest"/>
+		<Prp name="starttime" type="D" value="44755.6964606944"/>
+	</Node>
+</Nodes>

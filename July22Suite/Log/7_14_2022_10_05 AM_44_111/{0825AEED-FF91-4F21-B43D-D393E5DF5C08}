@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="details" type="S" value="{397B3EC5-8B6E-4F27-938C-8962BF10AECB}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Contact_2 [KeywordTests - Contact]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44756.4212851389"/>
+				<Prp name="end time" type="D" value="44756.4214545949"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="details" type="S" value="{A5641475-6549-41E5-8D2B-0536BF8D66BB}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="ContactGen [Script\ContactScript - ContactGen]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44756.4214547338"/>
+				<Prp name="end time" type="D" value="44756.4219203935"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="details" type="S" value="{35A7B3D5-6652-4163-87C0-AA7F4BD26AD4}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Login_2 [KeywordTests - Login]"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="start time" type="D" value="44756.4206572801"/>
+				<Prp name="end time" type="D" value="44756.4212850463"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{551631AE-C39F-4A33-927D-C954A7D8CB2D}">
+				<TypeInfo Item0="{99CFA123-B0F4-445A-BE44-9AC8C94D2296}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{87D0A17E-B2A5-4191-8594-BA6E13ECABD1}">
+						<TypeInfo Item0="{B09872F5-141B-467C-BE0B-82B9AF87459A}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageLogin" Key="{A3EC6763-2174-451B-B39C-3D4FF8CB6317}">
+								<Image FileName="541842540" Left="8" Top="79" Right="1928" Bottom="1088" />
+								<TypeInfo Item0="{D57F0630-8847-4B51-BA09-2AB38668C9C0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{38C46DA5-55FB-4D1B-918A-E7FD69B05400}">
+										<Image FileName="541842540" Left="390" Top="282" Right="1530" Bottom="827" />
+										<TypeInfo Item0="{5F2E12DF-0216-4B91-B8F0-C0AFC6803833}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sign In&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLoginWasUnsuccessfulPlease" Key="{82766DF7-D40C-489D-87DC-F7A8D2415132}">
+										<Image FileName="541842540" Left="1100" Top="464" Right="1483" Bottom="556" />
+										<TypeInfo Item0="{5F2E12DF-0216-4B91-B8F0-C0AFC6803833}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;validation-summary-errors&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div/div/div/div/div" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/div" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsernameoremail" Key="{30B57B1C-F928-4839-A81B-6B0D325F9E07}">
+										<Image FileName="-703481376" Left="1092" Top="456" Right="1475" Bottom="507" />
+										<TypeInfo Item0="{FC4442C0-D91F-47F6-B1AA-970CF4065B71}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#UsernameOrEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;UsernameOrEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//form/div//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{5B08D245-D822-49A8-828E-160C64EBFD68}">
+										<Image FileName="1051913653" Left="1092" Top="523" Right="1475" Bottom="574" />
+										<TypeInfo Item0="{FC4442C0-D91F-47F6-B1AA-970CF4065B71}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;password&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//form/div[2]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{865482BF-8CA4-48BC-8F8B-3C6E8F5CB965}">
+										<Image FileName="-137369515" Left="1092" Top="629" Right="1475" Bottom="680" />
+										<TypeInfo Item0="{A36AA740-EE2B-46C1-B2F8-B157C32D62E0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLoginWasUnsuccessfulPlease2" Key="{3A1E1219-ECDB-4BFC-8369-F948D17502CF}">
+										<Image FileName="1556072325" Left="1170" Top="696" Right="1745" Bottom="833" />
+										<TypeInfo Item0="{5F2E12DF-0216-4B91-B8F0-C0AFC6803833}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;validation-summary-errors&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div/div/div/div/div" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/div" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{088C1E2D-8EA5-4FBF-9CCC-61D18140FF18}">
+								<Image FileName="-1423497249" Left="-8" Top="-8" Right="1928" Bottom="1088" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageShop" Key="{208A265A-F5E8-4808-B726-4C8F74DE5892}">
+								<Image FileName="1646197242" Left="0" Top="71" Right="1920" Bottom="1080" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{A0B1E241-F577-4C4C-B2F7-E116D081C9B2}">
+										<Image FileName="-1652750150" Left="0" Top="71" Right="1903" Bottom="250" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navUsd" Key="{3BE276DC-B0E4-4FC3-B97B-6A996FC1B693}">
+										<Image FileName="-1652750150" Left="397" Top="71" Right="1507" Bottom="123" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogIn" Key="{5D6E2056-6FEB-4C2C-B31E-17271C1BABC1}">
+										<Image FileName="-1652750150" Left="1420" Top="71" Right="1507" Bottom="123" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogIn" Key="{C70FD4DA-7C0E-4792-97EE-D108A2D961B5}">
+										<Image FileName="-1652750150" Left="1448" Top="88" Right="1496" Bottom="105" />
+										<TypeInfo Item0="{EE53C8C1-4F55-43D8-A7FD-B37E6481CCC0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionContent" Key="{B67F50D7-3278-4941-B0EB-F30B1E27B8BF}">
+										<Image FileName="-2020936422" Left="21" Top="-3344" Right="561" Bottom="3508" />
+										<TypeInfo Item0="{5F2E12DF-0216-4B91-B8F0-C0AFC6803833}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to our store&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOnlineShoppingIsTheProce" Key="{E84B50E7-3C27-44FD-B8C7-57A01573E422}">
+										<Image FileName="-2020936422" Left="36" Top="-3277" Right="546" Bottom="-3196" />
+										<TypeInfo Item0="{5F2E12DF-0216-4B91-B8F0-C0AFC6803833}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;ph-topic-6&apos;]//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navContactUs" Key="{ECBE62DF-9C9C-477D-BA68-B3E35F846D01}">
+										<Image FileName="-1921064122" Left="1027" Top="68" Right="1210" Bottom="120" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;ml-auto&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkContactUs" Key="{105D6B7F-9929-4ACA-AD2A-4AE19F8ACFE3}">
+										<Image FileName="-1921064122" Left="1027" Top="68" Right="1123" Bottom="120" />
+										<TypeInfo Item0="{EE53C8C1-4F55-43D8-A7FD-B37E6481CCC0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Contact us&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[2]/a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//nav[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageContactus" Key="{56B9EA52-BD26-424B-816A-E9E84FD223CB}">
+								<Image FileName="-1562846589" Left="8" Top="79" Right="1928" Bottom="1088" />
+								<TypeInfo Item0="{D57F0630-8847-4B51-BA09-2AB38668C9C0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/contactus" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{914C77D8-B168-412A-B839-BBF75DC9C4C3}">
+										<Image FileName="-1562846589" Left="398" Top="282" Right="1538" Bottom="474" />
+										<TypeInfo Item0="{5F2E12DF-0216-4B91-B8F0-C0AFC6803833}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Contact Us&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelYourEnquiryHasBeen" Key="{D6FC9CF8-4DEE-448C-942E-59A08D02B179}">
+										<Image FileName="-1562846589" Left="413" Top="412" Right="1523" Bottom="459" />
+										<TypeInfo Item0="{5F2E12DF-0216-4B91-B8F0-C0AFC6803833}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Your enquiry has been successfully sent to the store owner.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//div[contains(@class, &apos;alert&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formYourName" Key="{A54D637F-E864-4102-A3C2-A0349DC8DE8A}">
+										<Image FileName="-1319578388" Left="394" Top="401" Right="1504" Bottom="786" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Your name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;contactus&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;contact-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxYourName" Key="{5D38F690-DB85-4222-9655-EF5CB8E85610}">
+										<Image FileName="-1319578388" Left="679" Top="401" Right="1504" Bottom="446" />
+										<TypeInfo Item0="{FC4442C0-D91F-47F6-B1AA-970CF4065B71}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Your name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#FullName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;FullName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputYourEmail" Key="{C6EF87FD-2B2A-4F58-A978-3C93A6C0957E}">
+										<Image FileName="1120319194" Left="679" Top="461" Right="1504" Bottom="506" />
+										<TypeInfo Item0="{EE53C8C1-4F55-43D8-A7FD-B37E6481CCC0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Your email&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#Email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaEnquiry" Key="{4459FD30-FA7A-419F-8151-9B4FC3117539}">
+										<Image FileName="1000556492" Left="679" Top="522" Right="1504" Bottom="679" />
+										<TypeInfo Item0="{EE53C8C1-4F55-43D8-A7FD-B37E6481CCC0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[@id=(//label[.=&apos;Enquiry&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#Enquiry" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSendEmail" Key="{983DCEAE-5666-4739-A3DE-04168C8CAFD0}">
+										<Image FileName="-1583300171" Left="679" Top="734" Right="781" Bottom="785" />
+										<TypeInfo Item0="{A36AA740-EE2B-46C1-B2F8-B157C32D62E0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;send-email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Submit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageShop2" Key="{399E8F5A-F73D-4EDF-8ADE-F23D0C6DBF90}">
+								<Image FileName="-782978433" Left="0" Top="106" Right="1920" Bottom="1080" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/TestComplete14/smartstore/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{E09B17D7-A41A-40B8-9E48-0B2B22AFD2AC}">
+										<Image FileName="-651744109" Left="0" Top="106" Right="1895" Bottom="400" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navUsd" Key="{8962A6C3-2004-4558-BE09-9053D5E74121}">
+										<Image FileName="-651744109" Left="115" Top="106" Right="1780" Bottom="169" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;USD&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogIn" Key="{4DD25770-758B-457B-B69D-967D74B8EAFE}">
+										<Image FileName="-651744109" Left="1660" Top="106" Right="1780" Bottom="169" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogIn" Key="{6C63B857-270D-4932-813D-6B588068EB07}">
+										<Image FileName="1862941969" Left="1700" Top="125" Right="1766" Bottom="149" />
+										<TypeInfo Item0="{EE53C8C1-4F55-43D8-A7FD-B37E6481CCC0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin2" Key="{0F163095-8BCE-4411-83B5-A13767B065D5}">
+								<Image FileName="-782978433" Left="0" Top="106" Right="1920" Bottom="1080" />
+								<TypeInfo Item0="{4611D2B7-85B9-46B0-AB66-8FFCC4B5F347}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/TestComplete14/smartstore/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{12EDE4C0-2BBA-4913-B4C7-2309A98E571C}">
+										<Image FileName="1456049238" Left="93" Top="436" Right="1803" Bottom="1090" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sign In&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsernameoremail" Key="{E558CFBF-CA1F-43B5-AACB-F9467904E212}">
+										<Image FileName="1456049238" Left="1159" Top="709" Right="1734" Bottom="786" />
+										<TypeInfo Item0="{FC4442C0-D91F-47F6-B1AA-970CF4065B71}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#UsernameOrEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;UsernameOrEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//form/div//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{2FFAA4AB-2B3B-4AB4-815F-77A268693934}">
+										<Image FileName="1142518426" Left="1159" Top="810" Right="1734" Bottom="887" />
+										<TypeInfo Item0="{FC4442C0-D91F-47F6-B1AA-970CF4065B71}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;password&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//form/div[2]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{F0058731-8F10-4AFA-BC70-C4B27F9CFC2F}">
+										<Image FileName="-2031361293" Left="1159" Top="966" Right="1734" Bottom="1043" />
+										<TypeInfo Item0="{A36AA740-EE2B-46C1-B2F8-B157C32D62E0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLoginWasUnsuccessfulPlease" Key="{AC6875A2-483F-482F-B58E-7D83907CF2E9}">
+										<Image FileName="1818140796" Left="1159" Top="709" Right="1734" Bottom="840" />
+										<TypeInfo Item0="{EE53C8C1-4F55-43D8-A7FD-B37E6481CCC0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;validation-summary-errors&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div/div/div/div/div" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/div" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{C9701CDD-073A-4EB3-B485-DB116A8F5DF7}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{C9C80CE9-288E-4057-9D4F-0581DA618580}">
+								<Image FileName="313692424" Left="0" Top="0" Right="2560" Bottom="60" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{752CA75F-529F-45EE-B44A-D0F36F3C76C1}">
+										<Image FileName="313692424" Left="730" Top="0" Right="2160" Bottom="60" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{35D5E6C0-80A7-4583-810F-90144098BE7B}">
+												<Image FileName="313692424" Left="732" Top="0" Right="2160" Bottom="60" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{684A1DB4-DBE0-4DB8-9881-9F1CD4E65EEC}">
+														<Image FileName="313692424" Left="732" Top="0" Right="2160" Bottom="60" />
+														<TypeInfo Item0="{11EFC4A4-DC0A-4E7A-86D7-1008B6724022}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{87D0A17E-B2A5-4191-8594-BA6E13ECABD1}">
+			<Child Name="pageLogin" Owner="{A3EC6763-2174-451B-B39C-3D4FF8CB6317}">
+				<Child Name="sectionContent" Owner="{38C46DA5-55FB-4D1B-918A-E7FD69B05400}">
+					<Child Name="panelLoginWasUnsuccessfulPlease" Owner="{82766DF7-D40C-489D-87DC-F7A8D2415132}" />
+					<Child Name="textboxUsernameoremail" Owner="{30B57B1C-F928-4839-A81B-6B0D325F9E07}" />
+					<Child Name="passwordboxPassword" Owner="{5B08D245-D822-49A8-828E-160C64EBFD68}" />
+					<Child Name="buttonLogIn" Owner="{865482BF-8CA4-48BC-8F8B-3C6E8F5CB965}" />
+					<Child Name="panelLoginWasUnsuccessfulPlease2" Owner="{3A1E1219-ECDB-4BFC-8369-F948D17502CF}" />
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{088C1E2D-8EA5-4FBF-9CCC-61D18140FF18}" />
+			<Child Name="pageShop" Owner="{208A265A-F5E8-4808-B726-4C8F74DE5892}">
+				<Child Name="header" Owner="{A0B1E241-F577-4C4C-B2F7-E116D081C9B2}">
+					<Child Name="navUsd" Owner="{3BE276DC-B0E4-4FC3-B97B-6A996FC1B693}">
+						<Child Name="linkLogIn" Owner="{5D6E2056-6FEB-4C2C-B31E-17271C1BABC1}">
+							<Child Name="textnodeLogIn" Owner="{C70FD4DA-7C0E-4792-97EE-D108A2D961B5}" />
+						</Child>
+						<Child Name="navContactUs" Owner="{ECBE62DF-9C9C-477D-BA68-B3E35F846D01}">
+							<Child Name="linkContactUs" Owner="{105D6B7F-9929-4ACA-AD2A-4AE19F8ACFE3}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="sectionContent" Owner="{B67F50D7-3278-4941-B0EB-F30B1E27B8BF}">
+					<Child Name="textnodeOnlineShoppingIsTheProce" Owner="{E84B50E7-3C27-44FD-B8C7-57A01573E422}" />
+				</Child>
+			</Child>
+			<Child Name="pageContactus" Owner="{56B9EA52-BD26-424B-816A-E9E84FD223CB}">
+				<Child Name="sectionContent" Owner="{914C77D8-B168-412A-B839-BBF75DC9C4C3}">
+					<Child Name="panelYourEnquiryHasBeen" Owner="{D6FC9CF8-4DEE-448C-942E-59A08D02B179}" />
+					<Child Name="formYourName" Owner="{A54D637F-E864-4102-A3C2-A0349DC8DE8A}">
+						<Child Name="textboxYourName" Owner="{5D38F690-DB85-4222-9655-EF5CB8E85610}" />
+						<Child Name="emailinputYourEmail" Owner="{C6EF87FD-2B2A-4F58-A978-3C93A6C0957E}" />
+						<Child Name="textareaEnquiry" Owner="{4459FD30-FA7A-419F-8151-9B4FC3117539}" />
+						<Child Name="buttonSendEmail" Owner="{983DCEAE-5666-4739-A3DE-04168C8CAFD0}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageShop2" Owner="{399E8F5A-F73D-4EDF-8ADE-F23D0C6DBF90}">
+				<Child Name="header" Owner="{E09B17D7-A41A-40B8-9E48-0B2B22AFD2AC}">
+					<Child Name="navUsd" Owner="{8962A6C3-2004-4558-BE09-9053D5E74121}">
+						<Child Name="linkLogIn" Owner="{4DD25770-758B-457B-B69D-967D74B8EAFE}">
+							<Child Name="textnodeLogIn" Owner="{6C63B857-270D-4932-813D-6B588068EB07}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLogin2" Owner="{0F163095-8BCE-4411-83B5-A13767B065D5}">
+				<Child Name="sectionContent" Owner="{12EDE4C0-2BBA-4913-B4C7-2309A98E571C}">
+					<Child Name="textboxUsernameoremail" Owner="{E558CFBF-CA1F-43B5-AACB-F9467904E212}" />
+					<Child Name="passwordboxPassword" Owner="{2FFAA4AB-2B3B-4AB4-815F-77A268693934}" />
+					<Child Name="buttonLogIn" Owner="{F0058731-8F10-4AFA-BC70-C4B27F9CFC2F}" />
+					<Child Name="panelLoginWasUnsuccessfulPlease" Owner="{AC6875A2-483F-482F-B58E-7D83907CF2E9}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{C9701CDD-073A-4EB3-B485-DB116A8F5DF7}">
+			<Child Name="wndShell_TrayWnd" Owner="{C9C80CE9-288E-4057-9D4F-0581DA618580}">
+				<Child Name="ReBarWindow32" Owner="{752CA75F-529F-45EE-B44A-D0F36F3C76C1}">
+					<Child Name="MSTaskSwWClass" Owner="{35D5E6C0-80A7-4583-810F-90144098BE7B}">
+						<Child Name="MSTaskListWClass" Owner="{684A1DB4-DBE0-4DB8-9881-9F1CD4E65EEC}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

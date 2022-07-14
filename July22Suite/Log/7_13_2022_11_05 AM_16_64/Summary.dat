@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="An exception occurred while the element specified in the 'ContactXL' test item was being executed."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="The execution process was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="'C:\Users\Desktop\TestComplete\Book1.xlsx' is not a valid path. Make sure that the path name is spelled correctly and that you are connected to the server on which the file resides"/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+						</Node>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="34319"/>
+						<Prp name="name" type="S" value="ContactXL"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADQAQgA2AEYAMwAxADYALQA4ADQAMQBCAC0ANAA2AEIARQAtAEIAQgBDADUALQAzAEIANQA2AEIANQBFADUAOAA4ADUAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="34319"/>
+						<Prp name="starttime" type="D" value="44755.4627444329"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because Exists does not equal true. See Details for additional information."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to find the object &quot;//div[contains(text(), 'Your enquiry has been successfully sent to the store owner.')]&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="20001"/>
+						<Prp name="name" type="S" value="Contact"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADYAMwBGADgAOQA3AEMALQA4AEUARgBBAC0ANAA3ADIARgAtAEIANgBDADIALQBBADUAOAAzADIAQQAyAEUANwA5AEYAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="20001"/>
+						<Prp name="starttime" type="D" value="44755.4625127778"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="Unable to find the object &quot;//div[contains(@class, 'validation-summary-errors')]&quot;. See Details for additional information."/>
+							</Node>
+							<Node name="error3">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to find the object &quot;//div[contains(@class, 'validation-summary-errors')]&quot;. See Details for additional information."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because Exists does not equal true. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="43442"/>
+						<Prp name="name" type="S" value="Login"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxAEQARABDAEQARAAyAEEALQAwADcARQAxAC0ANAA4AEEAQwAtAEEANgA5AEQALQAyADAAOABDADIAQgAyAEMAMwA4ADIAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="43442"/>
+						<Prp name="starttime" type="D" value="44755.4620097917"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="3"/>
+				<Prp name="duration" type="I" value="97762"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="WebTest"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44755.4620097917"/>
+			</Node>
+		</Node>
+		<Prp name="starttime" type="D" value="44755.4619920718"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="name" type="S" value="July22Suite"/>
+		<Prp name="failedtests" type="I" value="3"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="user" type="S" value="Corey.Vernon"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{5C5CE04D-3D88-43F5-909B-5C4E084DDD8A}"/>
+		<Prp name="testname" type="S" value="WebTest"/>
+		<Prp name="stop" type="D" value="44755.4631443403"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="host" type="S" value="PC15MYFV"/>
+		<Prp name="warningtests" type="I" value="0"/>
+	</Node>
+</Nodes>

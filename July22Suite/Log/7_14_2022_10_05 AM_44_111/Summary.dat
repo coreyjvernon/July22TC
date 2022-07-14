@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADkANwBCADMARQBDADUALQA4AEIANgBFAC0ANABGADIANwAtADkAMwA4AEMALQA4ADkANgAyAEIARgAxADAAQQBFAEMAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="14641"/>
+						<Prp name="name" type="S" value="Contact_2"/>
+						<Prp name="duration" type="I" value="14641"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="44756.4212851389"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADUANgA0ADEANAA3ADUALQA2ADUANAA5AC0ANAAxAEUANQAtADgARAAyAEIALQAwADUAMwA2AEIARgA4AEQANgA2AEIAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="40233"/>
+						<Prp name="name" type="S" value="ContactGen"/>
+						<Prp name="duration" type="I" value="40233"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="44756.4214547338"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because Exists does not equal true. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADUAQQA3AEIAMwBEADUALQA2ADYANQAyAC0ANAAxADYAMwAtADgANwBDADAALQBBAEEANwBGADQAQgBEADIANgBBAEQANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="54239"/>
+						<Prp name="name" type="S" value="Login_2"/>
+						<Prp name="duration" type="I" value="54239"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="44756.4206572801"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="WebTest"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="109113"/>
+				<Prp name="starttime" type="D" value="44756.4206572801"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="warningtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="key" type="S" value="{9AB409DD-54F1-4C1C-943B-9363B8365E07}"/>
+		<Prp name="stop" type="D" value="44756.4219249421"/>
+		<Prp name="host" type="S" value="PC15MYFV"/>
+		<Prp name="name" type="S" value="July22Suite"/>
+		<Prp name="testname" type="S" value="WebTest"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="Corey.Vernon"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="starttime" type="D" value="44756.4206499653"/>
+		<Prp name="warningtests" type="I" value="0"/>
+	</Node>
+</Nodes>

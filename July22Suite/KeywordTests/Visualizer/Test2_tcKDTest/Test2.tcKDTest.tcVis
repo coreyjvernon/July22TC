@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{D5F10C61-2701-43C2-B632-80AA8847E74C}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44755.6105671296" objectName="Aliases.browser.pageShop.header.navUsd.linkLogIn.textnodeLogIn" objectLeft="1445" objectTop="85" objectRight="1493" objectBottom="102" clickPointX="1474" clickPointY="98" imageFileName="tcvi180665953439925.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44755.6105902778" objectName="Aliases.browser.pageLogin.sectionContent.textboxUsernameoremail" objectLeft="1089" objectTop="453" objectRight="1472" objectBottom="504" clickPointX="1916" clickPointY="-4" imageFileName="tcvi180668234439928.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44755.6106134259" objectName="Aliases.browser.pageLogin.sectionContent.passwordboxPassword" objectLeft="1089" objectTop="520" objectRight="1472" objectBottom="571" clickPointX="1916" clickPointY="-4" imageFileName="tcvi1806697814399210.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44755.610625" objectName="Aliases.browser.pageLogin.sectionContent.buttonLogIn" objectLeft="1089" objectTop="626" objectRight="1472" objectBottom="677" clickPointX="1178" clickPointY="655" imageFileName="tcvi1806715934399211.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
